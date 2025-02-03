@@ -4,6 +4,7 @@ const dobro = numeros.map((element)=>{
 })
 console.log('Dobro: ', dobro)
 
+
 const triplo = numeros.map((element)=>{
     return element * 3
 })
