@@ -48,12 +48,12 @@ console.log(multiplicaPorCinco)
 
 const maiorQueSeis = multiplicaPorCinco.find((elemento)=>{
     return elemento > 6
-    
+
 })
 console.log('retorno find =>',maiorQueSeis)
 
 const maiorQueSeis1 = multiplicaPorCinco.filter((elemento)=>{
     return elemento > 6
-    
+
 })
 console.log('retorno filther =>',maiorQueSeis1)
